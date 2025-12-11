@@ -1,0 +1,276 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>殇</title><meta name="author" content="布隆迪骑士"><meta name="copyright" content="布隆迪骑士"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta property="og:type" content="website">
+<meta property="og:title" content="殇">
+<meta property="og:url" content="https://jokerssssss9999.github.io/page/24/index.html">
+<meta property="og:site_name" content="殇">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://jokerssssss9999.github.io/img/favicon.png">
+<meta property="article:author" content="布隆迪骑士">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://jokerssssss9999.github.io/img/favicon.png"><script type="application/ld+json"></script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://jokerssssss9999.github.io/page/24/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '殇',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'home'
+}</script><meta name="generator" content="Hexo 8.0.0"></head><body><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+btf.addGlobalFn('pjaxSend', () => {
+  Pace.restart()
+}, 'pace_restart')
+
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/blue/pace-theme-minimal.min.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url(/images/sea3.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">殇</span></a></span><div id="menus"></div></nav><div id="site-info"><h1 id="site-title">殇</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts nc" id="recent-posts"><div class="recent-post-items"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/231_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%BA%8C%E7%99%BE%E4%B8%89%E5%8D%81%E4%B8%80%E5%8D%B7(%E5%94%90%E7%BA%AA)/" title="231_资治通鉴第二百三十一卷(唐纪)">231_资治通鉴第二百三十一卷(唐纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第二百三十一卷(唐纪) 唐纪四十七德宗神武圣文皇帝六兴元元年（甲子、784） 唐纪四十七唐德宗兴元元年（甲子，公元784年） 　　[1]五月，盐铁判官万年王绍以江、淮缯帛来至，上命先给将士，然后御衫。韩欲遣使献绫罗四十担诣行在，幕僚何士干请行；喜曰：“君能相为行，请今日过江。”士干许诺，归别家，则家之薪米储已罗门庭矣；登舟，则资装器用已充舟中矣；下至厨筹，皆手笔记列，无不周备。每担夫，与白金一版置腰间。又运米百艘以饷李晟，自负米置舟中，将佐争举之，须臾而毕。艘置五弩手以为防援，有寇则叩舷相警，五百弩已矣。比至渭桥，盗不敢近。时关中兵荒，米斗直钱五百；及米至，减五之四。为人强力严毅，自奉俭素，夫人常衣绢裙，破，然后易。 　　[1]五月，盐铁判官万年人氏王绍带着江淮地区的丝帛来到行在，德宗命令先供给将士，然后自己才穿上单衣。韩打算派遣使者进献绫罗四十担，送到行在去，幕僚何士干请求前往。韩高兴地说：“你若能够替我去，请在今天就渡过长江。”何士干答应了。当何士干回去告别家人时，韩已经让人将家中需用的柴米储备罗列在门口和庭院了。何士干登船时，韩已经让人把所需物资装备与用具在船中装满...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/232_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%BA%8C%E7%99%BE%E4%B8%89%E5%8D%81%E4%BA%8C%E5%8D%B7(%E5%94%90%E7%BA%AA)/" title="232_资治通鉴第二百三十二卷(唐纪)">232_资治通鉴第二百三十二卷(唐纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第二百三十二卷(唐纪) 唐纪四十八 德宗神武圣文皇帝七贞元元年（乙丑、785） 唐纪四十八唐德宗贞元元年（乙丑，公元785年） 　　[1]八月，甲子，诏凡不急之费及人冗食者皆罢之。 　　[1]八月，甲子（初二），德宗颁诏将一切不急的开销以及因事由官府供给饮食的多余人员一律裁撤。 　　[2]马燧至行营，与诸将谋曰：“长春宫不下，则怀光不可得。长春官守备甚严，攻之旷日持久，我当身往谕之。”遂径造城下，呼怀光守将徐庭光，庭光帅将士罗拜城上。燧知其心屈，徐谓之曰：“我自朝廷来，可西向受命。”庭光等复西向拜。燧曰：“汝曹自禄山已来，徇国立功四十余年，何忽为灭族之计！从吾言，非止免祸，富贵可图也。”众不对。燧披襟曰：“汝不信吾言，何不射我！”将士皆伏泣。燧曰：“此皆怀光所为，汝曹无罪。弟坚守勿出。”皆曰“诺。” 　　[2]马燧来到行营，与各将领计议说：“不将长春宫攻打下来，便不能捉住李怀光。长春宫的防守戒备甚为严密，若是攻打它，势必空费时日，相持很久，我应当亲自前去开导他们。”于是，马燧径直来到城下，呼喊李怀光的守城将领徐庭光，徐庭光率领将士在城上列队向马燧下拜，马燧看出徐庭光内心已...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/233_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%BA%8C%E7%99%BE%E4%B8%89%E5%8D%81%E4%B8%89%E5%8D%B7(%E5%94%90%E7%BA%AA)/" title="233_资治通鉴第二百三十三卷(唐纪)">233_资治通鉴第二百三十三卷(唐纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第二百三十三卷(唐纪) 唐纪四十九 德宗神武圣文皇帝八贞元三年（丁卯、787） 唐纪四十九唐德宗贞元三年（丁卯，公元787年） 　　[1]八月，辛巳朔，日有食之。 　　[1]八月，辛巳朔（初一），出现日食。 　　[2]吐蕃尚结赞遣五骑送崔汉衡归，且上表求和；至潘原，李观语之以“有诏不纳吐蕃使者”，受其表而却其人。 　　[2]吐蕃尚结赞派遣骑兵五人护送崔汉衡回国，并且上表请求和好。到达潘原时，李观对他们讲“圣上颁诏命令不许接待吐蕃使者”，接受了他们的表章，但拒绝接待他们这一行人。 　　[3]初，兵部侍郎、同平章事柳浑与张延赏俱为相，浑议事数异同，延赏使所亲谓曰：“相公旧德，但节言于庙堂，则重位可久。”浑曰：“为吾谢张公，柳浑头可断，舌不可禁！”由是交恶。上好文雅酝藉，而浑质直轻，无威仪，于上前时发俚语。上不悦，欲黜为王府长史，李泌言：“浑褊直无他。故事，罢相无为长史者。”又欲以为王傅，泌请以为常侍，上曰：“苟得罢之，无不可者。”己丑，浑罢为左散骑常侍。 　　[3]当初，兵部侍郎、同平章事柳浑与张延赏一起出任宰相，柳浑在计议事情时，屡次与张延赏发生意见分歧。张延赏让亲近的人对...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/234_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%BA%8C%E7%99%BE%E4%B8%89%E5%8D%81%E5%9B%9B%E5%8D%B7(%E5%94%90%E7%BA%AA)/" title="234_资治通鉴第二百三十四卷(唐纪)">234_资治通鉴第二百三十四卷(唐纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第二百三十四卷(唐纪) 唐纪五十德宗神武圣文皇帝九贞元八年（壬申、792） 唐纪五十唐德宗贞元八年（壬申，公元792年） 　　[1]春，二月，壬寅，执梦冲，数其罪而斩之；云南之路始通。 　　[1]春季，二月，壬寅（十七日），韦皋捉获苴梦冲，在数说他的罪行后，斩杀了他。前往云南的道路开始畅通了。 　　[2]三月，丁丑，山南东道节度使曹成王皋薨。 　　[2]三月，丁丑（二十三日），山南东道节度使曹成王李皋去世。 　　[3]宣武节度使刘玄佐有威略，每李纳使至，玄佐厚结之，故常得其阴事，先为之备；纳惮之。其母虽贵，日织绢一匹，谓玄佐曰：“汝本寒微，天子富贵汝至此，必以死报之。”故玄佐始终不失臣节。庚午，玄佐薨。 　　[3]宣武节度使刘玄佐威严而有谋略，每当李纳的使者到来时，刘玄佐便深深地结纳他们，所以经常能够得知李纳的秘事，预告做好防备，李纳畏惧他。他的母亲虽地位尊贵，但每天都要织绢帛一匹。她对刘玄佐说：“你本来门第卑微，天子使你富裕尊贵到这般地步，你一定要不惜一死，报答天子。”所以，刘玄佐自始至终不曾失去为臣的节操。庚午（十六日）刘玄佐去世。 　　[4]山南东道节度判官李实知留...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/235_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%BA%8C%E7%99%BE%E4%B8%89%E5%8D%81%E4%BA%94%E5%8D%B7(%E5%94%90%E7%BA%AA)/" title="235_资治通鉴第二百三十五卷(唐纪)">235_资治通鉴第二百三十五卷(唐纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第二百三十五卷(唐纪) 唐纪五十一德宗神武圣文皇帝十贞元十年（甲戌、794） 唐纪五十一唐德宗贞元十年（甲戌，公元794年） 　　[1]六月，壬寅朔，昭义节度使李抱真薨。其子殿中侍御史缄与抱真从甥元仲经谋，秘不发丧，诈为抱真表，求以职事授缄；又诈为其父书，遣裨将陈荣诣王武俊假货财。武俊怒曰：“吾与乃公厚善，欲同奖王室耳，岂与汝同恶邪！闻乃公已亡，乃敢不俟朝命而自立，又敢告我，况有求也！”使荣归，寄声质责缄。 　　[1]六月，壬寅朔（初一），昭义节度使李抱真去世。他的儿子殿中侍御史李缄，与李抱真的表外甥元仲经谋划，先不将李抱真去世的消息公告于众，伪造李抱真的表章，请求将节度使的职务授给李缄，还伪造他父亲的书信，派遣副将陈荣前往王武俊处借用钱财。王武俊生气地说：“我与你父亲深深交好，是为了共同辅助朝廷而已，怎么会与你狼狈为奸呢！听说你父亲已经去世，你竟敢不等待朝廷的任命便擅自继位，还敢告诉我，况且有求于我！”他让陈荣回去，口头传达他对李缄的质问与责备。 　　昭义步军都虞候王延贵，汝州梁人也，素以义勇闻。上知抱真已薨，遣中使第五守进往观变，且以军事委王延贵。守进至上党，缄称抱真...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/236_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%BA%8C%E7%99%BE%E4%B8%89%E5%8D%81%E5%85%AD%E5%8D%B7(%E5%94%90%E7%BA%AA)/" title="236_资治通鉴第二百三十六卷(唐纪)">236_资治通鉴第二百三十六卷(唐纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第二百三十六卷(唐纪) 唐纪五十二 德宗神武圣文皇帝十一贞元十七年（辛巳、801） 唐纪五十二 唐德宗贞元十七年（辛巳，公元801年） 　　[1]春，正月，甲寅，韩全义至长安，窦文场为掩其败迹；上礼遇甚厚。全义称足疾，不任朝谒，遣司马崔放入对。放为全义引咎，谢无功，上曰：“全义为招讨使，能招来少诚，其功大矣，何必杀人然后为功邪！”闰月，甲戌，归夏州。 　　[1]春季，正月，甲寅（二十一日），韩全义来到长安，窦文场替他遮掩军队溃败的行迹，德宗以非常隆重的礼仪厚待他。韩全义声称得了脚病，不能上朝谒见，派遣司马崔放入朝回答德宗的提问。崔放替韩全义承认过失，以没有取得成效而谢罪。德宗说：“韩全义担任招讨使，能够将吴少诚招来，这个功劳就够大的了，为什么一定要将人们杀死，然后才算是功劳呢？”闰正月，甲戌（十一日），韩全义回夏州去了。 　　[2]韦士宗既入黔州，妄杀长吏，人心大扰。士宗惧，三月，脱身亡走。夏，四月，辛亥，以右谏议大夫裴佶为黔州观察使。 　　[2]韦士宗进入黔州以后，胡乱杀害高级官员，人心大为混乱。韦士宗害怕了，三月，他脱出身来，逃亡而去。夏季，四月，辛亥（二十日）。德宗...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/237_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%BA%8C%E7%99%BE%E4%B8%89%E5%8D%81%E4%B8%83%E5%8D%B7(%E5%94%90%E7%BA%AA)/" title="237_资治通鉴第二百三十七卷(唐纪)">237_资治通鉴第二百三十七卷(唐纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第二百三十七卷(唐纪) 唐纪五十三宪宗昭文章武大圣至神孝皇帝上之上元和元年（丙戌、806） 唐纪五十三唐宪宗元和元年（丙戌，公元806年） 　　[1]春，正月，丙寅朔，上帅群臣诣兴庆宫上上皇尊号。 　　[1]春季，正月，丙寅朔（初一），宪宗率领群臣来到兴庆宫，向太上皇进献尊号。 　　[2]丁卯，赦天下，改元。 　　[2]丁卯（初二），宪宗大赦天下罪囚，改年号。 　　[3]辛未，以鄂岳观察使韩皋为奉义节度使。癸酉，以奉义留后伊宥为安州刺史兼安州留后。宥，慎之子也。壬午，加成德节度使王士真同平章事。 　　[3]辛未（初六），宪宗任命鄂岳观察使韩皋为奉义节度使；癸酉（初八），任命奉义留后伊宥为安州刺史兼安州留后。伊宥是伊慎的儿子。壬午（十 七日），加封成德节度使王士真为同平章事。 　　[4]甲申，上皇崩于兴庆宫。 　　[4]甲申（十九日），太上皇在兴庆宫驾崩。 　　[5]刘辟既得旌节，志益骄，求兼领三川，上不许。辟遂发兵围东川节度使李康于梓州，欲以同幕卢文若为东川节度使。推官莆田林蕴力谏辟举兵，辟怒，械系于狱，引出，将斩之，阴戒行刑者使不杀，但数砺刃于其颈，欲使屈服而赦之。蕴叱...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/238_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%BA%8C%E7%99%BE%E4%B8%89%E5%8D%81%E5%85%AB%E5%8D%B7(%E5%94%90%E7%BA%AA)/" title="238_资治通鉴第二百三十八卷(唐纪)">238_资治通鉴第二百三十八卷(唐纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第二百三十八卷(唐纪) 唐纪五十四 宪宗昭文章武大圣至神孝皇帝上之下元和四年（己丑、809） 唐纪五十四 唐宪宗元和四年（己丑，公元809年） 　　[1]秋，七月，壬戌，御史中丞李夷简弹京兆尹杨凭，前为江西观察使贪污僭侈；丁卯，贬凭临贺尉。夷简，元懿之玄孙也。上命尽籍凭资产，李绛谏曰：“旧制，非反逆不籍其家。”上乃止。 　　[1]秋季，七月，壬戌（十八日），御史中丞李夷简揭发京兆尹杨凭原先担任江西观察使时贪赃枉法，过度奢侈。丁卯（二十三日），宪宗将杨凭贬为临贺县尉。李夷简是李元懿的玄孙。宪宗命令将杨凭的资财田产全部没收，李绛进谏说：“根据惯例，如果不属于谋反叛逆的罪行，便不没收罪犯的家产。”于是，宪宗才没有没收杨凭的资财田产。 　　凭之亲友无敢送者，栎阳尉徐晦独至蓝田与别。太常卿权德舆素与晦善，谓之曰：“君送杨临贺，诚为厚矣，无乃为累乎！”对曰：“晦自布衣蒙杨公知奖，今日远谪，岂得不与之别！借如明公他日为谗人所逐，晦敢自同路人乎！”德舆嗟叹，称之于朝。后数日，李夷简奏为监察御史。晦谢曰：“晦平生未尝得望公颜色，公何从而取之！”夷简曰：“君不负杨临贺，肯负国乎！” 　　杨凭...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/239_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%BA%8C%E7%99%BE%E4%B8%89%E5%8D%81%E4%B9%9D%E5%8D%B7(%E5%94%90%E7%BA%AA)/" title="239_资治通鉴第二百三十九卷(唐纪)">239_资治通鉴第二百三十九卷(唐纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第二百三十九卷(唐纪) 唐纪五十五 宪宗昭文章武大圣至神孝皇帝中之上元和七年（壬辰、812） 唐纪五十五 唐宪宗元和七年（壬辰，公元812年） 　　[1]冬，十月，乙未，魏博监军以状闻，上亟召宰相，谓李绛曰：“卿揣魏博若府契。”李吉甫请遣中使宣慰以观其变，李绛曰：“不可。今田兴奉其土地兵众，坐待诏命，不乘此际推心抚纳，结以大恩，必待敕使至彼，持将士表来为请节，然后与之，则是恩出于下，非出于上，将士为重，朝廷为轻，其感戴之心亦非今日之比也。机会一失，悔之无及！”吉甫素与枢密使梁守谦相结，守谦亦为之言于上曰：“故事，皆遣中使宣劳，今此镇独无，恐更不谕。”上竟遣中使张忠顺如魏博宣慰，欲俟其还而议之。癸卯，李绛复上言：“朝廷恩威得失，在此一举，时机可惜，奈何弃之！利害甚明，愿圣心勿疑。计忠顺之行，甫应过陕，乞明旦即降白麻除兴节度使，犹可及也。”上且欲除留后，绛曰：“兴恭顺如此，自非恩出不次，则无以使之感激殊常。”上从之。甲辰，以兴为魏博节度使。忠顺未还，制命已至魏州。兴感恩流涕，士众无不鼓舞。 　　[1]冬季，十月，乙未（初十），魏博监军将魏博将士废黜田怀谏，拥立田兴的文状上报，...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/240_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%BA%8C%E7%99%BE%E5%9B%9B%E5%8D%81%E5%8D%B7(%E5%94%90%E7%BA%AA)/" title="240_资治通鉴第二百四十卷(唐纪)">240_资治通鉴第二百四十卷(唐纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第二百四十卷(唐纪) 唐纪五十六 宪宗昭文章武大圣至神孝皇帝中之下元和十二年（丁酉、817） 唐纪五十六 唐宪宗元和十二年（丁酉，公元817年） 　　[1]春，正月，甲申，贬袁滋为抚州刺史。 　　[1]春季，正月，甲申（二十四日），宪宗将袁滋贬为抚州刺史。 　　李至唐州，军中承丧败之余，士卒皆惮战，知之，有出迓者，谓之曰：“天子知柔懦，能忍耻，故使来拊循尔曹。至于战攻进取，非吾事也。”众信而安之。 　　李来到唐州。唐州的军队在经受死丧败亡后，将士们都害怕作战，李也知道这种状况。有些人出来迎接李，李便对他们说：“天子知道我柔弱怯懦，能够忍受耻辱，因此让我来抚慰你们。至于采取军事行动，就不是我的事情了。”大家相信了他的话，都放心了。 　　亲行视士卒，伤病者存恤之，不事威严。或以军政不肃为言，曰：“吾非不知也。袁尚书专以恩惠怀贼，贼易之，闻吾至，必增备，吾故示之以不肃。彼必以吾为懦而懈惰，然后可图也。”淮西人自以尝败高、袁二帅，轻名位素微，遂不为备。 　　李亲自去看望将士们，慰问抚恤受伤和生病的人，不摆威严的架子。有人进言说军中政事不够整肃，李说：“我并不是不知道。袁尚书专门以...</div></div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/23/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/23/#content-inner">23</a><span class="page-number current">24</span><a class="page-number" href="/page/25/#content-inner">25</a><span class="space">&hellip;</span><a class="page-number" href="/page/30/#content-inner">30</a><a class="extend next" rel="next" href="/page/25/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/favicon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">布隆迪骑士</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">300</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/jokerssssss9999/"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">个人随记</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/11/001_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%B8%80%E5%8D%B7(%E5%91%A8%E7%BA%AA)/" title="001_资治通鉴第一卷(周纪)">001_资治通鉴第一卷(周纪)</a><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/11/002_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%BA%8C%E5%8D%B7(%E5%91%A8%E7%BA%AA)/" title="002_资治通鉴第二卷(周纪)">002_资治通鉴第二卷(周纪)</a><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/11/003_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%B8%89%E5%8D%B7(%E5%91%A8%E7%BA%AA)/" title="003_资治通鉴第三卷(周纪)">003_资治通鉴第三卷(周纪)</a><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/11/004_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E5%9B%9B%E5%8D%B7(%E5%91%A8%E7%BA%AA)/" title="004_资治通鉴第四卷(周纪)">004_资治通鉴第四卷(周纪)</a><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/11/005_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%BA%94%E5%8D%B7(%E5%91%A8%E7%BA%AA)/" title="005_资治通鉴第五卷(周纪)">005_资治通鉴第五卷(周纪)</a><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/book/"><span class="card-category-list-name">book</span><span class="card-category-list-count">1</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/" style="font-size: 1.1em; color: #999">资治通鉴</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/12/">
+            <span class="card-archive-list-date">
+              十二月 2025
+            </span>
+            <span class="card-archive-list-count">294</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/05/">
+            <span class="card-archive-list-date">
+              五月 2025
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2024/12/">
+            <span class="card-archive-list-date">
+              十二月 2024
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2024/10/">
+            <span class="card-archive-list-date">
+              十月 2024
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2024/02/">
+            <span class="card-archive-list-date">
+              二月 2024
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2023/08/">
+            <span class="card-archive-list-date">
+              八月 2023
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2023/01/">
+            <span class="card-archive-list-date">
+              一月 2023
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">300</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-12-11T07:44:30.491Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 By 布隆迪骑士</span></div><div class="footer_custom_text">人生苦短，及时行乐！^ > ^</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.1"></script><script src="/js/main.js?v=5.5.1"></script><script src="/js/tw_cn.js?v=5.5.1"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: str => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: subtitleType => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        btf.getScript('https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  },
+  processSubtitle: (content, extraContents = []) => {
+    if (true) {
+      const sub = ["我年轻时很穷，努力了几年，终于不再年轻了。","钱虽然没挣着，但也没白干，起码累着了。","贫穷的爱情就像香蕉，不是绿了就是黄了"].slice()
+
+      if (extraContents.length > 0) {
+        sub.unshift(...extraContents)
+      }
+
+      if (typeof content === 'string') {
+        sub.unshift(content)
+      } else if (Array.isArray(content)) {
+        sub.unshift(...content)
+      }
+
+      sub.length > 0 && typedJSFn.init(sub)
+    } else {
+      document.getElementById('subtitle').textContent = typeof content === 'string' ? content :
+        (Array.isArray(content) && content.length > 0 ? content[0] : '')
+    }
+  }
+}
+btf.addGlobalFn('pjaxSendOnce', () => { typed.destroy() }, 'typedDestroy')
+</script><script>function subtitleType () {
+  typedJSFn.processSubtitle(["我年轻时很穷，努力了几年，终于不再年轻了。","钱虽然没挣着，但也没白干，起码累着了。","贫穷的爱情就像香蕉，不是绿了就是黄了"])
+}
+typedJSFn.run(subtitleType)</script></div><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/dist/canvas-fluttering-ribbon.min.js"></script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/dist/click-heart.min.js" async="async" mobile="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

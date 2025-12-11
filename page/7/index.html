@@ -1,0 +1,276 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>殇</title><meta name="author" content="布隆迪骑士"><meta name="copyright" content="布隆迪骑士"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta property="og:type" content="website">
+<meta property="og:title" content="殇">
+<meta property="og:url" content="https://jokerssssss9999.github.io/page/7/index.html">
+<meta property="og:site_name" content="殇">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://jokerssssss9999.github.io/img/favicon.png">
+<meta property="article:author" content="布隆迪骑士">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://jokerssssss9999.github.io/img/favicon.png"><script type="application/ld+json"></script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://jokerssssss9999.github.io/page/7/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '殇',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'home'
+}</script><meta name="generator" content="Hexo 8.0.0"></head><body><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+btf.addGlobalFn('pjaxSend', () => {
+  Pace.restart()
+}, 'pace_restart')
+
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/blue/pace-theme-minimal.min.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url(/images/sea3.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">殇</span></a></span><div id="menus"></div></nav><div id="site-info"><h1 id="site-title">殇</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts nc" id="recent-posts"><div class="recent-post-items"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/061_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B8%80%E5%8D%B7(%E6%B1%89%E7%BA%AA)/" title="061_资治通鉴第六十一卷(汉纪)">061_资治通鉴第六十一卷(汉纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第六十一卷(汉纪) 汉纪五十三 孝献皇帝丙兴平元年（甲戌、194） 汉纪五十三 汉献帝兴平元年（甲戌，公元194年） 　　[1]春，正月，辛酉，赦天下。 　　[1]春季，正月，辛酉（十三日），大赦天下。 　　[2]甲子，帝加元服。 　　[2]甲子（十六日），献帝举行加冠礼。 　　[3]二月，戊寅，有司奏立长秋宫。诏曰：“皇妣宅兆未卜，何忍言后宫之选乎！”壬午，三公奏改葬皇妣王夫人，追上尊号曰灵怀皇后。 　　[3]二月，戊寅（初一），有关部门奏请献帝选立皇后。献帝下诏说：“我母亲安葬的地方还未定，怎么忍心谈挑选后妃的事呢？”壬午（初五），三公上奏，请将献帝的母亲王美人改葬到灵帝之陵，并追加尊号，称“灵怀皇后”。 　　[4]陶谦告急于田楷，楷与平原相刘备救之。备自有兵数千人，谦益以丹阳兵四千，备遂去楷归谦，谦表为豫州刺史，屯小沛。曹操军食亦尽，引兵还。 　　[4]徐州牧陶谦向青州刺史田楷告急，田楷与平原国相刘备率兵去援救他。刘备拥有自己的军队数千人，陶谦又增拨丹阳郡兵士四千名归他指挥，于是刘备就脱离田楷，投奔陶谦。陶谦上表推荐刘备担任豫州刺史，驻扎在小沛。正好曹操军粮也已告尽...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/062_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E5%85%AD%E5%8D%81%E4%BA%8C%E5%8D%B7(%E6%B1%89%E7%BA%AA)/" title="062_资治通鉴第六十二卷(汉纪)">062_资治通鉴第六十二卷(汉纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第六十二卷(汉纪) 汉纪五十四 孝献皇帝丁建安元年（丙子、196） 汉纪五十四 汉献帝建安元年（丙子，公元196年） 　　[1]春，正月，癸酉，大赦，改元。 　　[1]春季，正月，癸酉（初七），大赦天下，改年号为建安元年。 　　[2]董承、张杨欲以天子还雒阳，杨奉、李乐不欲，由是诸将更相贰。二月，韩暹攻董承，承奔野王。韩暹屯闻喜，胡才、杨奉之坞乡。胡才欲攻韩暹，上使人喻止之。 　　[2]董承、张杨打算护送献帝回洛阳，杨奉、李乐不同意，于是将领们进一步相互猜疑。二月，韩暹进攻董承，董承败走，投奔驻在野王的张杨。韩暹驻军闻喜，胡才、杨奉率军前往坞乡。胡才准备进攻韩暹，献帝派人传旨，阻止他进军。 　　[3]汝南、颖川黄巾何仪等拥众附袁术，曹操击破之。 　　[3]汝南、颖川的黄巾军首领何仪等率众投靠袁术，曹操出军击溃何仪等。 　　[4]张杨使董承先缮修雒阳宫。太仆赵岐为承说刘表，使遣兵诣雒阳，助修宫室；军资委输，前后不绝。夏，五月，丙寅，帝遣使至杨奉、李乐、韩暹营，求送至雒阳，奉等从诏。六月乙未，车驾幸闻喜。 　　[4]张杨派董承先去修缮被董卓烧毁的洛阳宫殿。太仆赵岐为董承去说服...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/063_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B8%89%E5%8D%B7(%E6%B1%89%E7%BA%AA)/" title="063_资治通鉴第六十三卷(汉纪)">063_资治通鉴第六十三卷(汉纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第六十三卷(汉纪) 汉纪五十五 孝献皇帝戊建安四年（己卯、199） 汉纪五十五 汉献帝建安四年（己卯，公元199年） 　　[1]春，黑山贼帅张燕与公孙续率兵十万，三道救之。未至，瓒密使行人赍书告续，使引五千铁骑于北隰之中，起火为应，瓒欲自内出战。绍候得其书，如期举火。瓒以为救至，遂出战。绍设伏击之，瓒大败，复还自守。绍为地道，穿其楼下，施木柱之，度足达半，便烧之，楼辄倾倒，稍至京中。瓒自计必无全，乃悉缢其姊妹、妻子，然后引火自焚。绍趣兵登台，斩之。田楷战死。关靖叹曰：“前若不止将军自行，未必不济。吾闻君子陷入危，必同其难，岂可以独生乎！”策马赴绍军而死。续为屠各所杀。 　　[1]春季，黑山军首领张燕与公孙续率兵十万，分三路援救公孙瓒，张燕的援军还未到，公孙瓒秘密派使者送信给公孙续，让他率五千铁骑到北方低洼地区埋伏，点火作为信号，公孙瓒打算自己出城夹击袁绍围城部队。袁绍的巡逻兵得到这封书信，袁绍就按期举火，公孙瓒以为援军已到，就率军出战。袁绍的伏兵发动进攻，公孙瓒大败，回城继续坚守。袁绍围城部队挖掘地道，挖到公孙瓒部队固守的城楼下，用木柱撑住，估计已挖到城楼的一半，便纵火烧...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/064_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E5%85%AD%E5%8D%81%E5%9B%9B%E5%8D%B7(%E6%B1%89%E7%BA%AA)/" title="064_资治通鉴第六十四卷(汉纪)">064_资治通鉴第六十四卷(汉纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第六十四卷(汉纪) 汉纪五十六 孝献皇帝已建安六年（辛巳、201） 汉纪五十六 汉献帝建安六年（辛巳，公元201年） 　　[1]春，三月，丁卯朔，日有食之。 　　[1]春季，三月，丁卯（疑误），出现日食。 　　[2]曹操就谷于安民。以袁绍新破，欲以其间击刘表。荀曰：“绍既新败，其众离心，宜乘其困，遂定之；而欲远师江、汉，若绍收其余烬，乘虚以出人后，则公事去矣。”操乃止。夏，四月，操场兵河上，击袁绍仓亭军，破之。秋，九月，操还许。 　　[2]曹操率军移驻到粮食丰足的安民地区。曹操认为袁绍才被击败，打算利用这个间隙去进攻刘表。荀说：“袁绍刚吃了一场败仗，军心涣散，应该乘他尚未摆脱困境之机，一扫而平。而您却要远征长江、汉水之间，如果袁绍收拾残部，乘虚从后面突袭，则您的事业将付诸流水。”曹操便停止了远征荆州的打算。夏季，四月，曹操率军沿黄河行进，炫耀军威，进攻袁绍驻在仓亭的军队，打败袁绍军。秋季，九月，曹操回到许都。 　　[3]操自击刘备于汝南，备奔刘表，龚都等皆散。表闻备至，自出郊迎，以上宾礼待之，益其兵，使屯新野。备在荆州数年，尝于表坐起至厕，慨然流涕。表怪，问备，备曰：“平...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/065_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E5%85%AD%E5%8D%81%E4%BA%94%E5%8D%B7(%E6%B1%89%E7%BA%AA)/" title="065_资治通鉴第六十五卷(汉纪)">065_资治通鉴第六十五卷(汉纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第六十五卷(汉纪) 汉纪五十七 孝献皇帝庚建安十一年（丙戌、206） 汉纪五十七 汉献帝建安十一年（丙戌，公元206年） 　　[1]春，正月，有星孛于北斗。 　　[1]春季，正月，有异星出现在北斗星座。 　　[2]曹操自将击高干，留其世子丕守邺，使别驾从事崔琰傅之。操围壶关，三月，壶关降。高干自入匈奴求救，单于不受；干独与数骑亡，欲南奔荆州，上洛都尉王琰捕斩之，并州悉平。 　　[2]曹操亲自率军征讨并州刺史高干，留下世子曹丕镇守邺城，派别驾、从事崔琰辅佐曹丕。曹操大军包围壶关。三月，壶关投降。高于亲自去向匈奴求救，被匈奴单于拒绝。高干身边只剩几名骑兵卫士，想南逃到荆州去投奔刘表。半路上，被上洛都尉王琰捉获，斩首。并州全部平定。 　　曹操使陈郡梁习以别部司马领并州刺史。时荒乱之余，胡、狄雄张，吏民亡判入其部落，兵家拥众，各为寇害。习到官，诱喻招纳，皆礼召其豪右，稍稍荐举，使诣幕府；豪右已尽，次发诸丁强以为义从；又因大军出征，令诸将分请以为勇力。吏兵已去之后，稍移其家，前后送邺，凡数万口；其不从命者，兴兵致讨，斩首千数，降附者万计。单于恭顺，名王稽颡，服事供职，同于编户。边境...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/066_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E5%85%AD%E5%8D%81%E5%85%AD%E5%8D%B7(%E6%B1%89%E7%BA%AA)/" title="066_资治通鉴第六十六卷(汉纪)">066_资治通鉴第六十六卷(汉纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第六十六卷(汉纪) 汉纪五十八 孝献皇帝辛建安十四年（已丑、209） 汉纪五十八 汉献帝建安十四年（己丑，公元209年） 　　[1]春，三月，曹操军至谯。 　　[1]春季，三月，曹操大军到达谯县。 　　[2]孙权围合肥，久不下。权率轻骑欲身往突敌，长史张谏曰：“夫兵者凶器，战者危事也。今麾下恃盛壮之气，忽强暴之虏，三军之众，莫不寒心。虽斩将搴旗，威震敌场，此乃偏将之任，非主将之宜也。愿抑贲、育之勇，怀霸王之计。”权乃止。 　　[2]孙权包围合肥，很久未能攻克。孙权率领轻骑准备亲自突击敌人，长史张劝阻说：“武器是不吉祥的器物，战争是很危险的事情。如今将军倚仗着锐气，轻视强大凶暴的敌人，使得三军上下，无不为您担心。即使能杀死敌将，俘获战旗，威震敌军，这不过是一个偏将的责任，不是主将所该作的事情。愿您抑制一下像孟贲、夏育那样的勇气，而胸怀争霸天下的王者谋略。”孙权才停止出击。 　　曹操遗将军张喜将兵解围 ，久而未至。扬州别驾楚国蒋济密白刺史，伪得喜书，云步骑四万已到雩娄，遣主簿迎喜。三部使赍书语城中守将，一部得入城，二部为权兵所得。权信之，遽烧围走。 　　曹操派将张喜率军解救合...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/067_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B8%83%E5%8D%B7(%E6%B1%89%E7%BA%AA)/" title="067_资治通鉴第六十七卷(汉纪)">067_资治通鉴第六十七卷(汉纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第六十七卷(汉纪) 汉纪五十九 孝献皇帝壬建安十九年（甲午、214） 汉纪五十九 汉献帝建安十九年（甲午，公元214年） 　　[1]春，马超从张鲁求兵，北取凉州，鲁遣超还围祁山。姜叙告急于夏候渊，诸将议欲须魏公操节度。渊曰：“公在邺，反覆四千里，比报，叙等必败，非救急也。”遂行，使张督步骑五千为前军。超败走。 　　[1]春季，马超请求张鲁分派给他一支军队，向北攻取凉州，张鲁派遣马超回军围攻祁山，祁山守将姜叙向夏侯渊告急。夏侯渊部下将领议论，认为必须上报魏公曹操，由他发令调度。夏侯渊说：“魏公远在邺城，向他报告，往返行程四千里，等他的命令传到这里，姜叙等人必定早已被打败，这不能解救危机。”于是命令部队行动，由张率步、骑兵五千人为先头部队。马超败退而走。 　　韩遂在显亲，渊欲袭取之，遂走。渊追至略阳城，去遂三十余里，诸将欲攻之，或言当攻兴国氐。渊以为：“遂兵精，兴国城固，攻不可卒拨，不如击长离诸羌。长离诸羌多在遂军，必归救其家。若舍羌独守则孤，救长离则官兵得与野战，必可虏也。”渊乃留督将守辎重，自将轻兵到长离，攻烧羌屯，遂果救长离。诸将见遂兵众，欲结营作堑乃与战。渊曰：“我转...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/068_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E5%85%AD%E5%8D%81%E5%85%AB%E5%8D%B7(%E6%B1%89%E7%BA%AA)/" title="068_资治通鉴第六十八卷(汉纪)">068_资治通鉴第六十八卷(汉纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第六十八卷(汉纪) 汉纪六十孝献皇帝癸建安二十二年（丁酉、217） 汉纪六十汉献帝建安二十二年（丁酉，公元217年） 　　[1]春，正月，魏王操军居巢，孙权保濡须，二月，操进攻之。 　　[1]春季，正月，魏王曹操驻军居巢，孙权守卫濡须。二月，曹操向濡须进攻。 　　初，右护军蒋钦屯宣城，芜湖令徐盛收钦屯吏，表斩之。及权在濡须，钦与吕蒙持诸军节度，钦每称徐盛之善。权问之，钦曰：“盛忠而勤强，有胆略器用，好万人督也。今大事未定，臣当助国求才，岂敢挟私恨以蔽贤乎？”权善之。 　　当初，孙权的右护军蒋钦驻屯宣城，芜湖令徐盛逮捕了蒋钦的属吏，并上表将他斩首。及至孙权在濡须时，蒋钦和吕蒙负责指挥各路军队，蒋钦每每称赞徐盛的优点。孙权问蒋钦为什么称赞徐盛，蒋钦回答：“徐盛忠诚、勤勉、贤强，有胆略，有器度，是个统帅万人的杰出将领。如今事业尚未成功，臣下我应当帮助国家访求人才，怎么敢怀着私人怨恨而遮蔽贤能呢？”孙权对此非常赞赏。 　　三月，操引军还，留伏波将军夏侯都督曹仁、张辽等二十六军屯居巢。权令都尉徐详诣操请降，操报使修好，誓重结婚。权留平虏将军周泰督濡须；朱然、徐盛等皆在所部，以泰寒门...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/069_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B9%9D%E5%8D%B7(%E9%AD%8F%E7%BA%AA)/" title="069_资治通鉴第六十九卷(魏纪)">069_资治通鉴第六十九卷(魏纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第六十九卷(魏纪) 魏纪一 世祖文皇帝上黄初元年 （庚子、220） 魏纪一 魏文帝黄初元年（庚子，公元220年） 　　[1]春，正月，武王至洛阳；庚子，薨。王知人善察，难眩以伪。识拔奇才，不拘微贱，随能任使，皆获其用。与敌对陈，意思安闲，如不欲战然；及至决机乘胜，气势盈溢。勋劳宜赏，不吝千金；无功望施，分豪不与。用法峻急，有犯必戮，或对之流涕，然终无所赦。雅性节俭，不好华丽。故能芟刈群雄，几乎海内。 　　[1]春季，正月，魏武王曹操抵达洛阳；庚子（二十三日），曹操去世。魏王知人善任，善于洞察别人，很难被假像所迷惑；能够发掘和提拔有特殊才能的人，不论地位多么低下，都按照才能加以任用，使他们充分发挥自己的才智。和敌人对阵时，他仪态安详，似乎不愿意打仗；可是一旦制定好策略，向敌人发动攻击，便气势充沛，斗志昂扬。对有功的将士和官吏，赏赐时不吝千金；而对没有功却希望受到赏赐的人，则分文不给。执法时严峻急切，违法的一定加以惩罚，有时对犯罪的人伤心落泪，也不加赦免。生活俭朴，不崇尚富丽奢华。报以能够消灭各个强大的割据势力，几乎统一全国。 　　是时太子在邺，军中骚动。群僚欲秘不发丧。谏议...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/11/070_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%B8%83%E5%8D%81%E5%8D%B7(%E9%AD%8F%E7%BA%AA)/" title="070_资治通鉴第七十卷(魏纪)">070_资治通鉴第七十卷(魏纪)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/">资治通鉴</a></span></div><div class="content">资治通鉴第七十卷(魏纪) 魏纪二 世祖文皇帝下黄初四年（癸卯、223） 魏纪二 魏文帝黄初四年（癸卯，公支223年 　　[1]春，正月，曹真使张击破吴兵，遂夺据江陵中洲。 　　[1]春季，正月，曹真派张击溃吴军一部，攻占江陵的中洲。 　　[2]二月，诸葛亮至永安。 　　[2]二月，诸葛亮到达永安。 　　[3]曹仁以步骑数万向濡须，先扬声欲东攻羡溪，朱桓分兵赴之；既行，仁以大军径进，桓闻之，追还羡溪兵，兵未到而仁奄至，时桓手下及所部兵在者才五千人，诸将业业各有惧心，桓喻之曰：“凡两军交对，胜负在将，不在众寡。诸君闻曹仁用兵行师，孰与桓邪？兵法所以称‘客倍而主人半’者，谓俱在平原无城隍之守，又谓士卒勇怯齐等故耳。今仁既非智勇，加其士座甚怯，又千里步涉，人马罢困。桓与诸君共据高城，南临大江，北背山陵，以逸待劳，为主制客，此百战百胜之势，虽曹丕自来，尚不足忧，况仁等邪！”桓乃偃旗鼓，外示虚弱以诱致仁。仁遣其子泰攻濡须城，分遣将军常雕、王双等乘油船别袭中洲。中洲者，桓部曲妻子所在也。蒋济曰：“贼据西岸，列船上流，而兵入洲，是为自内地狱，危亡之道也。”仁不从，自将万人留橐，为泰等后援。桓遣别...</div></div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/6/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/#content-inner">6</a><span class="page-number current">7</span><a class="page-number" href="/page/8/#content-inner">8</a><span class="space">&hellip;</span><a class="page-number" href="/page/30/#content-inner">30</a><a class="extend next" rel="next" href="/page/8/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/favicon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">布隆迪骑士</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">300</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/jokerssssss9999/"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">个人随记</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/11/001_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%B8%80%E5%8D%B7(%E5%91%A8%E7%BA%AA)/" title="001_资治通鉴第一卷(周纪)">001_资治通鉴第一卷(周纪)</a><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/11/002_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%BA%8C%E5%8D%B7(%E5%91%A8%E7%BA%AA)/" title="002_资治通鉴第二卷(周纪)">002_资治通鉴第二卷(周纪)</a><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/11/003_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%B8%89%E5%8D%B7(%E5%91%A8%E7%BA%AA)/" title="003_资治通鉴第三卷(周纪)">003_资治通鉴第三卷(周纪)</a><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/11/004_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E5%9B%9B%E5%8D%B7(%E5%91%A8%E7%BA%AA)/" title="004_资治通鉴第四卷(周纪)">004_资治通鉴第四卷(周纪)</a><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/11/005_%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4%E7%AC%AC%E4%BA%94%E5%8D%B7(%E5%91%A8%E7%BA%AA)/" title="005_资治通鉴第五卷(周纪)">005_资治通鉴第五卷(周纪)</a><time datetime="2025-12-11T06:20:30.000Z" title="发表于 2025-12-11 06:20:30">2025-12-11</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/book/"><span class="card-category-list-name">book</span><span class="card-category-list-count">1</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E8%B5%84%E6%B2%BB%E9%80%9A%E9%89%B4/" style="font-size: 1.1em; color: #999">资治通鉴</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/12/">
+            <span class="card-archive-list-date">
+              十二月 2025
+            </span>
+            <span class="card-archive-list-count">294</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/05/">
+            <span class="card-archive-list-date">
+              五月 2025
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2024/12/">
+            <span class="card-archive-list-date">
+              十二月 2024
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2024/10/">
+            <span class="card-archive-list-date">
+              十月 2024
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2024/02/">
+            <span class="card-archive-list-date">
+              二月 2024
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2023/08/">
+            <span class="card-archive-list-date">
+              八月 2023
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2023/01/">
+            <span class="card-archive-list-date">
+              一月 2023
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">300</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-12-11T07:44:30.491Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 By 布隆迪骑士</span></div><div class="footer_custom_text">人生苦短，及时行乐！^ > ^</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.1"></script><script src="/js/main.js?v=5.5.1"></script><script src="/js/tw_cn.js?v=5.5.1"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: str => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: subtitleType => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        btf.getScript('https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  },
+  processSubtitle: (content, extraContents = []) => {
+    if (true) {
+      const sub = ["我年轻时很穷，努力了几年，终于不再年轻了。","钱虽然没挣着，但也没白干，起码累着了。","贫穷的爱情就像香蕉，不是绿了就是黄了"].slice()
+
+      if (extraContents.length > 0) {
+        sub.unshift(...extraContents)
+      }
+
+      if (typeof content === 'string') {
+        sub.unshift(content)
+      } else if (Array.isArray(content)) {
+        sub.unshift(...content)
+      }
+
+      sub.length > 0 && typedJSFn.init(sub)
+    } else {
+      document.getElementById('subtitle').textContent = typeof content === 'string' ? content :
+        (Array.isArray(content) && content.length > 0 ? content[0] : '')
+    }
+  }
+}
+btf.addGlobalFn('pjaxSendOnce', () => { typed.destroy() }, 'typedDestroy')
+</script><script>function subtitleType () {
+  typedJSFn.processSubtitle(["我年轻时很穷，努力了几年，终于不再年轻了。","钱虽然没挣着，但也没白干，起码累着了。","贫穷的爱情就像香蕉，不是绿了就是黄了"])
+}
+typedJSFn.run(subtitleType)</script></div><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/dist/canvas-fluttering-ribbon.min.js"></script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/dist/click-heart.min.js" async="async" mobile="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
